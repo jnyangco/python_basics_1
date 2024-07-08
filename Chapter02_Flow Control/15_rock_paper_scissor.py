@@ -20,11 +20,11 @@ while True:  # The main game loop
 
     # Display what the player chose:
     if player_move == 'r':
-        print('ROCK versus...', end=' ')
+        print('[ROCK vs ', end='')
     elif player_move == 'p':
-        print('PAPER versus...', end=' ')
+        print('[PAPER vs...', end='')
     elif player_move == 's':
-        print('SCISSORS versus...', end=' ')
+        print('[SCISSORS vs...', end='')
 
     # Display what the computer chose:
     # random_number = random.randint(1, 3)
@@ -41,13 +41,13 @@ while True:  # The main game loop
     # Display what the computer chose:
     computer_move_list = ('r', 'p', 's')
     computer_move = random.choice(computer_move_list)
-    print(random.choice(computer_move_list))
+    # print(computer_move)
     if computer_move == 'r':
-        print('ROCK')
+        print('ROCK]')
     elif computer_move == 'p':
-        print('PAPER')
+        print('PAPER]')
     elif computer_move == 's':
-        print('SCISSORS')
+        print('SCISSORS]')
 
     # Display and record the win/loss/tie:
     if player_move == computer_move:
