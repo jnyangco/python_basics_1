@@ -1,11 +1,10 @@
-# dict_board = {'top-L': ' ', 'top-M': ' ', 'top-R': ' ',
-#              'mid-L': ' ', 'mid-M': ' ', 'mid-R': ' ',
-#              'low-L': ' ', 'low-M': ' ', 'low-R': ' '}
+dict_board = {'top-L': ' ', 'top-M': ' ', 'top-R': ' ',
+             'mid-L': ' ', 'mid-M': ' ', 'mid-R': ' ',
+             'low-L': ' ', 'low-M': ' ', 'low-R': ' '}
 
-dict_board = {'top-L': '0', 'top-M': '0', 'top-R': '0',
-             'mid-L': 'X', 'mid-M': 'X', 'mid-R': ' ',
-             'low-L': ' ', 'low-M': ' ', 'low-R': 'X'}
-
+# dict_board = {'top-L': '0', 'top-M': '0', 'top-R': '0',
+#              'mid-L': 'X', 'mid-M': 'X', 'mid-R': ' ',
+#              'low-L': ' ', 'low-M': ' ', 'low-R': 'X'}
 
 
 def print_board(board):
@@ -15,6 +14,18 @@ def print_board(board):
     print('-+-+-')
     print(board['low-L'] + '|' + board['low-M'] + '|' + board['low-R'])
 
-
 # print_board(dictionary)
+# print_board(dict_board)
+
+
+turn = 'X'
+for i in range(9):
+    print_board(dict_board)
+    print('Turn for ' + turn + '. Move on which space?')
+    move = input()
+    dict_board[move] = turn
+    if turn == 'X':
+        turn = 'O'
+    else:
+        turn = 'X'
 print_board(dict_board)
