@@ -1,0 +1,5 @@
+## CHAPTER 6
+Chapter06_Manipulating_Strings
+12_justify_text_rjust_ljust_center_methods.py
+13_sample_picnic_table.py
+
