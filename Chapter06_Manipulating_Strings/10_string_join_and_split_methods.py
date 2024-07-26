@@ -1,16 +1,16 @@
 # JOIN() -> join list of strings into a single string
 # syntax: '<str>.join(['item1', 'item2', 'item3']) -> output: item1 + <str> + item2 + <str> . . .
-# note: <str> acts as delimiter
+# note: <str> acts as delimiter/separator
 
 print(', '.join(['cats', 'rats', 'bats']))
 print(' '.join(['My', 'name', 'is', 'Simon']))
 print('<ABC>'.join(['My', 'name', 'is', 'Simon']))
 print('----------------------------------')
 
-# SPLIT() -> by default, split wherever whitespace characters such as the space, tab, or newline characters are found
+# 1.1 SPLIT() -> by default, split whitespace characters such as the space, tab, or newline characters are found
 print('My name is Simon'.split())  # return -> ['My', 'name', 'is', 'Simon']
 
-# SPLIT with DELIMITER
+# 1.2 SPLIT with DELIMITER
 print('My<ABC>name<ABC>is<ABC>Simon'.split('<ABC>'))
 
 
