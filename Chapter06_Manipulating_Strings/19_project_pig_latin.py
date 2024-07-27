@@ -14,6 +14,7 @@ message = 'My name is AL SWEIGART and I am 4,000 years old.'
 vowels = ('a', 'e', 'i', 'o', 'u')  # tuple of strings (immutable will not change)
 
 pig_latin = []  # a list of the words in Pig Latin
+
 for word in message.split():
     # Separate the non-letters at the start of this word:
     prefix_non_letters = ''
