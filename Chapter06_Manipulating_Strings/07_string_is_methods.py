@@ -1,8 +1,9 @@
 # Note: is<method> is useful to validate user inputs
 # isalpha() -> if string consists of only letters
-# isnumeric() -> if string consists only numeric numbers (not decimals, etc) and is not blank
-
 # isdecimal() -> if string consists only numeric numbers and is not blank
+
+# note: isnumber() and isdigit() accepts other type of strings (i.e: "0 3 8", "0.3.8", etc...)
+
 # isalnum() -> if string consists of letters and numbers
 
 # isspace() -> if string consists only of spaces, tabs, and newlines and is not blank
