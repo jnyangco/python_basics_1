@@ -1,6 +1,7 @@
 # JOIN() -> join list of strings into a single string
 # syntax: '<str>.join(['item1', 'item2', 'item3']) -> output: item1 + <str> + item2 + <str> . . .
-# note: <str> acts as delimiter/separator
+
+# NOTE: <str> acts as delimiter/separator
 
 print(', '.join(['cats', 'rats', 'bats']))
 print(' '.join(['My', 'name', 'is', 'Simon']))
