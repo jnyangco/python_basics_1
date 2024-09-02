@@ -8,7 +8,7 @@ while True:
     print('Hello, John. What is your password: (Hint: it is a fish.)')
     password = input()
     if password == 'swordfish':
-            break # it will jump out of the loop
+        break # it will jump out of the loop
     print('Incorrect password, jumps back to start of the loop.')
 
 print('Access granted!')
