@@ -3,6 +3,7 @@ def spam(divide_by):
         return 20 / divide_by
     except ZeroDivisionError:
         print('Error: Invalid input, cannot divide by zero.')
+        # return None -> by default it will return None
 
 
 print(spam(2))
