@@ -1,4 +1,4 @@
 
 list_data = ['cat', 'dog', 'mice', 'bug']
 
-print(list_data[-4])
+print(list_data[-2])
