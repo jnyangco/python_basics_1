@@ -12,6 +12,7 @@ def get_answer(answer_number):
         return '#4 Maybe'
     elif answer_number == 5:
         return '#5 Please try again'
+    return None
 
 
 r = random.randint(1, 5)

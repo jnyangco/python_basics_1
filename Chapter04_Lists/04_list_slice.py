@@ -16,3 +16,4 @@ print(spam[0:-2])  # 0:4 (4 - 2 = 2) -> [0:2]
 # blank index
 print(spam[0:])
 print(spam[:4])
+
