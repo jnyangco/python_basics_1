@@ -1,9 +1,9 @@
 # Title link
-raw_url = "https://www.qa-1.ignitesasia.com/eal/httpgetwrap%7Chttps://www.qa-1.ignitesasia.com/c/4991764/703524/table_item_performance_fund_former_industry_never_majority?referrer_module=emailMorningNewsMarketing&module_order=0&refemail=%%=URLencode(emailaddr,1,1)=%%&fn=%%=URLencode(FirstName,1,1)=%%&ln=%%=URLencode(LastName,1,1)=%%&cmp=%%=URLencode(TargetAccount,1,1)=%%&ph=%%=URLencode(Phone,1,1)=%%&campcode=%%=URLencode(CampaignName,1,1)=%%&salesforce_id=%%=URLencode(CampaignMemberID,1,1)=%%&jobtitle=%%=URLencode(Title,1,1)=%%&isBetaOptin=1"
+raw_url = "https://qa-1.ignitesasia.com/eal/httpgetwrap%7Chttps://www.qa-1.ignitesasia.com/c/5020034/698534/taiwan_regulator_acknowledges_hurdles_financial_goal?referrer_module=emailMorningNewsMarketing&module_order=1&refemail=%%=URLencode(emailaddr,1,1)=%%&fn=%%=URLencode(FirstName,1,1)=%%&ln=%%=URLencode(LastName,1,1)=%%&cmp=%%=URLencode(TargetAccount,1,1)=%%&ph=%%=URLencode(Phone,1,1)=%%&campcode=%%=URLencode(CampaignName,1,1)=%%&salesforce_id=%%=URLencode(CampaignMemberID,1,1)=%%&jobtitle=%%=URLencode(Title,1,1)=%%&isBetaOptin=1"
 
 # FORMAT:
 raw_url = (raw_url
-           .replace("https://www.qa-1.ignitesasia.com/eal/httpgetwrap%7C", "")
+           .replace("https://qa-1.ignitesasia.com/eal/httpgetwrap%7C", "")
            .replace("%%=URLencode(emailaddr,1,1)=%%", "ia-user-002@money-media.com")
            .replace("%%=URLencode(FirstName,1,1)=%%", "QA")
            .replace("%%=URLencode(LastName,1,1)=%%", "Test")
