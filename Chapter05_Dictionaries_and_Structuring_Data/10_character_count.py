@@ -12,3 +12,4 @@ for character in message:
 
 print(dict_char_count)
 
+

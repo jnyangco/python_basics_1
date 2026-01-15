@@ -1,11 +1,11 @@
 # start
-for i in range(12, 16):
+for i in range(12, 16): # last not included
     print(i)
 print('---------------------')
 
 
 # step
-for i in range(0, 10, 2):
+for i in range(0, 10, 2): # last not included
     print(i)
 print('---------------------')
 

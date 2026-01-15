@@ -20,3 +20,4 @@ print(spam.keys())  # -> dict_keys(['color', 'age'])
 print(list(spam.keys())) # -> ['color', 'age'] -> takes the dict_keys value returned from keys() and passes it to list()
 
 
+

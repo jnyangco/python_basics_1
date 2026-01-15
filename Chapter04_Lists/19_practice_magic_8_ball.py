@@ -9,3 +9,4 @@ messages_list = ['#1 It is certain', '#2 Yes', '#3 No', '#4 Maybe', '#5 Please t
 # 2. random.randint(from index, to index)
 print(messages_list[random.randint(0, len(messages_list) - 1)])
 
+

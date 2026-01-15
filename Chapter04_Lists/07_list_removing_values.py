@@ -8,3 +8,4 @@ print(spam)
 # del spam[3] -> error new list only has 3 items
 del spam[2]
 print(spam)
+

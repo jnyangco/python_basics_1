@@ -22,11 +22,11 @@ print(type(tuple2))
 
 
 # USAGE:
-# You can use tuples to convey to anyone reading your code that you don’t intend for that sequence of values to change.
+# You can use tuples to convey to anyone reading your code that you don't intend for that sequence of values to change.
 # -> cannot use reassignment of each items
 
 # If you need an ordered sequence of values that never changes, use a tuple.
 # -> cannot use SORT
 
-# A second benefit of using tuples instead of lists is that, because they are immutable and their contents don’t change,
+# A second benefit of using tuples instead of lists is that, because they are immutable and their contents don't change,
 # Python can implement some optimizations that make code using tuples slightly faster than code using lists.

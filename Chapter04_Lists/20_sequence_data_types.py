@@ -16,7 +16,7 @@ print('y' not in name)
 
 # print each characters of a string
 print('--------------------')
-for i in name:
-    print(i)
+for letter in name:
+    print(letter)
 
 
