@@ -64,3 +64,4 @@ if not list2: # false (not true)
     is_empty = True
 else: # true
     print("List 2 is not empty")
+
